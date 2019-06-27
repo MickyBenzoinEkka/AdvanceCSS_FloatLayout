@@ -1,0 +1,128 @@
+.heading-primary {
+    color: #000000;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+
+}
+
+.heading-primary-main {
+    display:inline-block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 15px;
+
+      animation: moveInRight;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+    /* animation-iteration-count: 3; 
+    animation-delay: 3s; */
+}
+.heading-primary-mid1 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 15px;
+  color: rgb(68, 68, 68);
+
+  animation: moveInRotate;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  /* animation-iteration-count: 3; 
+  animation-delay: 3s; */
+}
+
+.heading-primary-mid2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 15px;
+  
+  animation: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  /* animation-iteration-count: 3; 
+  animation-delay: 3s; */
+}
+
+
+.heading-primary-sub {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 6px;
+
+    animation: moveInBottom 1s ease-out;
+}
+@keyframes moveInRotate {
+  /* 0% {
+    transform: rotate(-50deg);
+  }
+ */
+  50% {
+    transform: rotate(270deg);
+  }
+}
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+
+    80% {
+      transform: translateX(10px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  80% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+rgba(240, 128, 128, 0.801),
+ rgba(248, 25, 25, 0.801)),
+
+ ------------------------------
+
+   rgba(178, 34, 34, 0.801),rgba(128, 0, 0, 0.801)),
+   _______________________________________
+   rgba(70, 131, 180, 0.795), rgba(25, 25, 112, 0.801)),
+   __________________________________________________________
+
+/* 
+Colors:
+  Ligth purple: #DA70D6
+  Medium purple: #BA55D3	
+  Dark Purple: #9932CC
+*/
