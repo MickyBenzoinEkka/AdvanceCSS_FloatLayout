@@ -1,0 +1,1 @@
+This is an advance css project using float layout. In this project instead of using css file with multiple line of code we use multiple sass file for different sections to manage the code better. 
